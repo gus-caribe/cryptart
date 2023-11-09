@@ -9,8 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) => MaterialApp(
     title: 'CryptArt Caesar Cypher',
-    theme: ThemeData(
-      colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+    theme: ThemeData.light(
       useMaterial3: true,
     ),
     home: const Encrypter(),
